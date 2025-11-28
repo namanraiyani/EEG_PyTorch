@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Data
+eeg_data/
+*.edf
+*.gdf
+*.bdf
+*.set
+*.fdt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Ignore any folder named 'data' but keep the source code data module
+**/data/
+!eeg_pytorch/data/
